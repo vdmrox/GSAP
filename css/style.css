@@ -1,0 +1,93 @@
+#banner {
+  overflow-y: hidden;
+  width: 300px;
+  height: 250px;	
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+#girl {
+    position: absolute;
+    z-index: 5;
+}
+
+#ice {
+    position: absolute;
+    z-index: 10;
+}
+
+#cta {
+    position: absolute;
+    z-index: 20;
+}
+
+#razor {
+    position: absolute;
+    z-index: 15;
+    clip: rect(0px 300px 250px 0px);
+}
+
+
+#logo {
+    position: absolute;
+    z-index: 25;
+}
+
+#razor-ending {
+    position: absolute;
+    z-index: 30;
+    clip: rect(0px 300px 250px 0px);
+}
+
+#ice-top {background: url('../assets/iceTop.png') no-repeat;}
+#ice-1 {background: url('../assets/ice1.png') no-repeat;}
+#ice-2 {background: url('../assets/ice2.png') no-repeat;}
+#ice-3 {
+    background: url('../assets/ice3.png') no-repeat;
+    background-position-y: -25px;
+}
+
+#girl-top{background: url('../assets/girlTop.png') no-repeat;}
+#girl-strip{background: url('../assets/girlStrip.png') no-repeat;}
+#girl-bottom{background: url('../assets/girlBottom.png') no-repeat;}
+
+#cta-btn {
+    background: url('../assets/cta.png') no-repeat;
+    width: 300px;
+    height: 25px;
+    position: absolute;
+    top: 225px;
+}
+
+.ice-container, .girl-container {
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#razor-item {
+    background: url('../assets/razor.png') no-repeat;
+    width: 214px;
+    height: 569px;
+    position: absolute;
+    top: 0;
+}
+
+#razor-ending-item {
+    background: url('../assets/razorEnding.png') no-repeat;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 115px;
+}
+
+#logo-item {
+    background: url('../assets/logo.png') no-repeat;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+}
